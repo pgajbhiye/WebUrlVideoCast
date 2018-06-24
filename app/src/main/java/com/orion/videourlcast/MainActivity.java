@@ -10,7 +10,6 @@ import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.Menu;
 import android.view.View;
-import android.widget.Button;
 import android.widget.Toast;
 import android.widget.VideoView;
 
@@ -56,7 +55,6 @@ public class MainActivity extends AppCompatActivity implements MediaCallback {
         super.onCreate(savedInstanceState);
         castContext = CastContext.getSharedInstance(this);
         setContentView(R.layout.activity_main);
-        Button button = (Button) findViewById(R.id.send);
         RecyclerView recyclerView = (RecyclerView) findViewById(R.id.recyclerview);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
@@ -137,7 +135,7 @@ public class MainActivity extends AppCompatActivity implements MediaCallback {
             return;
         }
         if (mCastSession == null) {
-            Toast.makeText(this, "Please start the cast session", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Click on the cast button to start session", Toast.LENGTH_SHORT).show();
             return;
         }
         Log.d(LOG_TAG, "## Video Selected " + metaData.getTitle());

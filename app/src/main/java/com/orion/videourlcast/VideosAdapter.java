@@ -32,7 +32,7 @@ public class VideosAdapter extends RecyclerView.Adapter<VideosAdapter.ViewHolder
 
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
-        holder.des.setText(videoMetaData.get(position).getTitle());
+        holder.des.setText(videoMetaData.get(position).getTitle() + " \n" + videoMetaData.get(position).getSources().get(0));
     }
 
     @Override

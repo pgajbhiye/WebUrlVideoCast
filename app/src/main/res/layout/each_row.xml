@@ -7,10 +7,10 @@
     <TextView
         android:id="@+id/description"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="80dp"
         android:layout_marginLeft="20dp"
         android:gravity="center_vertical"
-        android:textSize="18dp" />
+        android:textSize="16dp" />
 
     <View
         android:layout_width="match_parent"
