@@ -31,3 +31,7 @@ Custom Receiver is hosted here: https://snowdonut.herokuapp.com/PeelUrlPlayer.ht
   </body>
 </html>
 ```
+![Video url list view]
+(https://github.com/pgajbhiye/WebUrlVideoCast/blob/master/screenshots/device-2018-06-24-193344.png)
+
+
