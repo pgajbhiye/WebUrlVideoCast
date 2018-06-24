@@ -11,3 +11,22 @@ Custom Receiver is hosted here: https://snowdonut.herokuapp.com/PeelUrlPlayer.ht
 3. This application can be used with your own custom receiver. For this, change the **app_id** in **strings.xml** to match the application you registered in Cast SDK Console.
 
 4. If using your own custom receiver, reboot the chromecast once your receiver applciation is ready for testing.
+
+
+# Custom Receiver html file
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Peel URL Player</title>
+  </head>
+  <body>
+    <cast-media-player></cast-media-player>
+    <script src="//www.gstatic.com/cast/sdk/libs/caf_receiver/v3/cast_receiver_framework.js"></script>
+    <script type="text/javascript">
+      const context = cast.framework.CastReceiverContext.getInstance();
+      context.start();
+    </script>
+  </body>
+</html>
