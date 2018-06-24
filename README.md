@@ -15,7 +15,7 @@ Custom Receiver is hosted here: https://snowdonut.herokuapp.com/PeelUrlPlayer.ht
 
 # Custom Receiver html file
 
-
+```
 <!DOCTYPE html>
 <html>
   <head>
@@ -30,3 +30,4 @@ Custom Receiver is hosted here: https://snowdonut.herokuapp.com/PeelUrlPlayer.ht
     </script>
   </body>
 </html>
+```
